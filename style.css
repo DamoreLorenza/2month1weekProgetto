@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Spectral:wght@300;400;700&display=swap');
+
+body{
+
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif; 
+   
+
+}
+
+@media screen and (min-width: 390px) {
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+/* header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffc017;
+    padding: 1em;
+    border: black solid 1px;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    position: fixed;
+    top: 0;
+    
+    
+    z-index: 3;
+    width: 100%;
+}
+
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.getStarted{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    width: 150px;
+}
+
+@media screen and (min-width: 390px) {
+
+   .getStarted{
+    width: 100px;
+   }
+    
+}
+
+
+header li{
+
+    display: inline-block;
+    padding: 0.5em;
+}
+header button{
+    padding: 1em;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 390px) {
+
+    header button{
+        font-size: 10px;
+        width: 60px;
+    }
+    
+}
+
+nav{
+    margin-right: 15em;
+}
+
+@media screen and (min-width: 390px) {
+
+    nav{
+        margin-right: 0.5em;
+    }
+    
+}
+
+header img{
+
+margin-left: 10em;
+margin-top: 1em;
+width: 250px;
+
+}
+
+@media screen and (min-width: 390px) {
+
+  header img {
+    margin-left: 1em;
+    margin-top: 0;
+    width: 150px;
+  }
+    
+}
+
+/* main */
+
+main{z-index: 1;}
+
+.mainBlockOne{
+    display: flex;
+    flex-direction: column;
+    margin: 7em 15em;
+   
+
+}
+.mainBlockTwo{
+
+    margin-top: 2em;
+
+}
+.mainBlockTwo p{
+    text-align: center;
+    word-spacing: 30px;
+    line-height: 28px;
+    color: black;
+    font-weight: bolder;
+    height: 700px;
+    font-size: 25px;
+}
+
+.mainBlockOne h1{
+    font-size: 150px;
+    /* padding: 1em; */
+    padding-bottom: 0.5em;
+    width: 900px;
+    
+    
+    
+}
+
+.mainBlockOne p{
+    font-size: 35px;
+    width: 700px;
+    margin-bottom: 2.5em;
+    
+}
+.mainBlockOne button{
+    width: 350px;
+    padding: 0.5em;
+    border-radius: 30px;
+    background-color: #191919;
+    color: white;
+    font-size: 30px;
+
+}
+.mainBlockOne button:hover{
+    background-color: black;
+}
+
+.mainBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 700px;
+    border: black solid 1px;
+    background-color: #ffc017;
+    z-index: 1;
+    margin-top: 5em;
+}
+
+/* article */
+article{
+    position: relative;
+    border-bottom: rgb(168, 168, 168) solid 2px;
+    z-index: 1;
+}
+
+.article{
+    margin: 3em 15em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+}
+
+article h2{
+
+font-size: 25px;
+font-weight: bolder;
+display: flex;
+flex-direction: row;
+position: absolute;
+left: 14em;
+top: 1.2em;
+
+}
+
+article h2 img{
+    width: 70px;
+    height: 50px;
+   
+    
+    
+}
+
+article h2,img{
+    display: flex;
+    justify-content: baseline;
+}
+
+/*  */
+
+.article h3{
+    font-size: 40px;
+    color: rgb(146, 146, 146);
+    margin: 0.8em;
+   
+}
+
+.boxDivUno{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   width: 400px;
+   margin: 4em 3em;
+}
+
+.uno p img{
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.8em;
+  
+
+}
+.uno p{
+
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 1em;
+    
+}
+
+article h4{
+    font-weight: bolder;
+    font-size: 30px;
+    width: 500px;
+    margin-bottom: 0.5em;
+}
+
+article h4:last-of-type{
+    
+    color: gray;
+    font-size: 18px;
+
+}
+
+.boxDivDue{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 4em 3em;
+    
+ }
+
+ .boxDivTre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 4em 3em;
+ }
+
+ .boxDivQuattro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 4em 3em;
+ }
+
+ .boxDivCinque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 4em 3em;
+ }
+
+ .boxDivSei{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 4em 3em;
+ }
+
+
+ /* section */
+
+ .section{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 8em;
+    margin-left: 10em;
+    z-index: 1;
+
+ }
+
+ .singleSection{
+
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-bottom: 5em;
+ }
+
+.testi{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+ .testi h3{
+
+    font-size: 20px;
+    font-weight: bolder;
+
+ }
+
+ .testi img{
+    width: 50px;
+    border-radius: 50%;
+ }
+
+ .testi h3,img{
+    display: inline-block;
+    
+ }
+
+
+ .testi h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 850px;
+ }
+
+ .testi p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 1em;
+    width: 700px;
+ }
+
+ .sottotesti{
+    display: inline-block;
+ }
+
+ .sottotesti h5{
+    display: inline-block;
+    color: gray;
+    padding: 1em;
+ }
+
+ .sottotesti button{
+
+border-radius: 40px;
+padding: 1em;
+color: rgba(128, 128, 128, 0.415);
+background-color: rgb(194, 194, 194);
+font-weight: bolder;
+
+ }
+
+ .sottotesti img{
+
+    width: 30px;
+    margin-left: 2em;
+    margin-top: 2em;
+ }
+
+ #specialLogo{
+
+margin-left: 14em;
+
+ }
+
+ .immagine{
+    margin-top: 2em;
+ }
+ .immagine img{
+    margin-left: 1em;
+    
+ }
+
+ /* aside */
+
+.blocco{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+
+ aside{width: 30%;
+ margin-top: 8em;
+ width: 700px;
+ display: flex;
+ flex-direction: column;
+z-index: 1;
+
+    
+}
+
+aside h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.contenitoreBottoni{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenitoreBottoni button{
+    color: gray;
+    background-color: transparent;
+    border: rgb(180, 180, 180) solid 1px;
+    padding: 0.8em;
+    margin-right: 0.5em;
+    width: 200px;
+    margin-bottom: 1em;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.listaFinale,ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.listaFinale li{
+    color: gray;
+    padding: 0.8em;
+    margin-right: 0.5em;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* fine mok */
+@keyframes firstAnimation{
+    50% { color: transparent}
+}
+
+.mainBlockTwo .spanUno{
+
+animation-name: firstAnimation;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+
+.mainBlockTwo .spanDue{
+
+    animation-name: firstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    
+    }
+    .mainBlockTwo .spanTre{
+
+        animation-name: firstAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 8s;
+        
+        }
+
+
+        .cambioColore{
+            background-color: white;
+        }
+
+     .cambioColoreDue{
+            background-color: #1a8917;
+        }
