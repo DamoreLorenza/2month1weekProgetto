@@ -488,10 +488,10 @@
         let limes = 700;
         if (scroll >= limes) {
           testa.classList.add("cambioColore");
-        } else if (scroll >= limes) {
-          bottone.style.backgroundColor = "#1a8917";
+          bottone.classList.add("cambioColoreDue");
         } else {
-          testa.classList.remove("cambioColore");
+          testa.classList.remove("cambioColore"),
+            bottone.classList.remove("cambioColoreDue");
         }
       };
       window.addEventListener("scroll", changeColor);
